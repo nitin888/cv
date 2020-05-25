@@ -39,7 +39,7 @@ p
 
 .container-fluid
 {
-  padding: 3% 15% 12%;
+  padding: 3% 15% 2%;
 }
 
 /* Navigation Bar */
@@ -76,9 +76,10 @@ p
 /* Title Image */
 .title-image
 {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
+  /* width: 60%; */
+  max-width: 100%;
+  /* transform: rotate(25deg); */
+  /* position: absolute; */
   right: 20%;
 }
 
@@ -138,14 +139,18 @@ p
 #press
 {
   /* background-color: #D9455F; */
-  background-color: #1F4068;
+  /* background-color: #1F4068; */
+  background-color: #FFFFFF;
   text-align: center;
   padding-bottom: 3%;
 }
 
 .press-logo
 {
-  width: 15%;
+  padding-top: 5%;
+  /* width: 4.5%; */
+  /* height: 5%; */
+  width: 7%;
   margin: 20px 20px 50px;
 }
 
@@ -153,7 +158,7 @@ p
 
 #pricing
 {
-  padding: 7% 15%;
+  padding: 0 15%;
   text-align: center;
 }
 
@@ -175,12 +180,13 @@ p
 {
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 0;
 }
 
 .card-images
 {
   height: auto;
-  max-width: 100%
+  max-width: 100%;
   /* width: 60px */
 }
 
